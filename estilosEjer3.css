@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #89f7fe, #66a6ff);
+}
+
+img {
+    max-width: 90%; /* Limitar al 90% del ancho del contenedor */
+    max-height: 70vh; /* Limitar al 70% de la altura de la pantalla */
+    height: auto; /* Mantener la proporción */
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 10px;
+}
+
+a.btn {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+}
